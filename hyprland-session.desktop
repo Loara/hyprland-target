@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Hyprland Session
+Comment=An intelligent dynamic tiling Wayland compositor
+Exec=/usr/bin/sh -c '/usr/bin/Hyprland-target.sh'
+Type=Application
