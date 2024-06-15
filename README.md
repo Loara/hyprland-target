@@ -8,4 +8,4 @@ Put `hyprland-session.target` in your `systemd/user` directory, `Hyprland-target
     exec-once = systemctl --user start hyprland-session.target
 
 ## Manual execution
-Just use `Hyprland_target` in place of `Hyprland`.
+Just use `Hyprland-target` in place of `Hyprland`.
