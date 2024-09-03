@@ -1,0 +1,7 @@
+[Unit]
+Description=Hyprland pre-session Target
+BindsTo=graphical-session-pre.target
+After=graphical-session-pre.target
+Requires=basic.target
+After=basic.target
+StopWhenUnneeded=yes

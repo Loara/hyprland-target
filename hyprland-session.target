@@ -1,5 +1,7 @@
 [Unit]
 Description=Hyprland session Target
 BindsTo=graphical-session.target
-Wants=graphical-session-pre.target
-After=graphical-session-pre.target
+After=graphical-session.target
+Requires=basic.target
+After=basic.target
+StopWhenUnneeded=yes
