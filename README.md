@@ -1,4 +1,6 @@
 # hyprland-target
+**This project is now deprecated**: you should use [Universal Wayland Session Manager](https://github.com/Vladimir-csp/uwsm) which has a better integration with Hyprland. See also the [related page in Hyprland's wiki](https://wiki.hyprland.org/Useful-Utilities/Systemd-start/).
+
 Systemd session target for Hyprland
 
 ## Installation and execution
